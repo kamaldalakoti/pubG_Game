@@ -20,3 +20,5 @@ def Registration(request):
         Registration.save()
         messages.success(request, ' Submition Successfull')
     return render(request, 'registration.html')    
+def about(request):
+    return render(request, 'about.html')    
